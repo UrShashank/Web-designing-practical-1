@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+
+        header {
+            background-color: #333;
+            color: #ffc107;
+            text-align: center;
+            padding: 1em;
+            border-bottom: 3px solid #ffc107;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #2d2d2d;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #ffc107;
+        }
+
+        p {
+            color: #ddd;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: #fff;
+            border-top: 3px solid #ffc107;
+        }
+
+        iframe {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        /* Add hover effect for links */
+        a {
+            color: #ffc107;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shashank</h1>
+        <p>Portfolio</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Passionate individual with a keen eye for detail and storytelling. Bringing creativity to life through visual narratives. Ready to make your stories unforgettable, both on and off the screen!</p>
+    </section>
+
+    <section>
+        <h2>Showreel</h2>
+        <iframe src="https://www.youtube.com/embed/your_first_video_id" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section>
+        <h2>Video Reels</h2>
+        <iframe src="https://www.youtube.com/embed/your_second_video_id" frameborder="0" allowfullscreen></iframe>
+        <!-- Add more iframes for additional videos -->
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <p>Explore some of my featured work below:</p>
+        <!-- Add project details, videos, or images here -->
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Let's connect! Reach out to me through <a href="https://www.instagram.com/im_shashank97/">@im_shashank97</a>. Can't wait to create magic together!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shashank. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
